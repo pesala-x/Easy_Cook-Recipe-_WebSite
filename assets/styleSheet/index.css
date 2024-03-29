@@ -1,0 +1,141 @@
+
+*
+{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root
+{
+    --black: #333;
+    --baby_black:#333;
+    --heavy_Black:#00fff7;
+    --white: #fff;
+    --white2: #fff;
+    
+}
+.dark
+{
+    --black: #fff;
+    --baby_black:rgba(255, 255, 255, 0.201);
+    --heavy_Black:#000;
+    --white: #333;
+    --white2: #000;
+}
+
+body
+{
+    background-color: var(--white);
+}
+#main-header{
+    width: 100vw;
+    height: 50px;
+    /*background-color:var(--black);*/
+    background-color:transparent;
+    position: fixed;
+    z-index: 100000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+#main-header.scrolled {
+    background-color: var(--black);
+    color: #0096c7;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#headerLogo{
+    padding-left: 14vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    color: var(--heavy_Black);
+    display: inline-block;
+}
+header>nav{
+    display: inline-block;
+}
+header>nav>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header>nav>ul>li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    padding-right: 0.5vw;
+    padding-left: 0.5vw;
+    display: inline-block;
+}
+header>nav>ul>li>a {
+    color: var(--white2);
+    text-decoration: none;
+}
+header>nav>ul>li>a:hover
+{
+    color: aqua;
+    font-style:italic;
+    font-size: 15px;
+}
+#logoNav{
+    padding-right: 14vw;
+    display: inline-block;
+}
+
+#logoNav>ul>li{
+    padding: 0.1vw;
+}
+
+.headerLogo{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: #0096c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btns ion-icon
+{
+    font-size: 1.5em;
+    color: var(--heavy_Black);
+    
+}
+.btns.menuToggle ion-icon
+{
+    font-size: 3em;
+}
+.btns ion-icon:nth-child(2)
+{
+    display: none;
+}
+.btns.active ion-icon:nth-child(2)
+{
+    display: block ;
+}
+.btns.active ion-icon:nth-child(1)
+{
+    display: none ;
+}
+.sci
+{
+    position: fixed;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+}
+.sci>li
+{
+    list-style: none;
+}
+.sci>li>a
+{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.78em;
+}

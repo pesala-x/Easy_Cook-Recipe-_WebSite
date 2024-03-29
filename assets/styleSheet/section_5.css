@@ -1,0 +1,218 @@
+#section_10{
+    margin-top: 80px;
+    background-color: #F9FAFB;
+    padding-bottom: 50px;
+}
+
+#sec_10Topics{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#sec10_HeadText{
+    color: black;
+    margin: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#sec10_SubText{
+    margin: 5px;
+    text-align: center;
+    width: 330px;
+    color: #6B6E74;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#sec_10Main{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-right: 14vw;
+    padding-left: 14vw;
+}
+
+.sec_10Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.sec_10Column1{
+    flex: 2;
+    padding: 20px;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.sec_10TxtGridCon{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.sec_10TxtGridConItem{
+    display: flex;
+    height: 40px;
+    width: 320px;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+#sec_10NameTxt{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #E2E2E2;
+}
+
+#sec_10EmailTxt{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #E2E2E2;
+}
+
+.textarea-container {
+    width: 650px;
+    height: 120px;
+    resize: none;
+    overflow-y: auto;
+}
+
+.textarea-container textarea {
+    padding: 10px;
+    width: 100%;
+    height: 90%;
+    border: 1px solid #E2E2E2;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.sec_10TxtFld::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#sec_10BtnContainer{
+    padding-top: 25px;
+    display: flex;
+    justify-content: left;
+}
+
+#sec_10Btn{
+    margin: 10px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+#sec_10BtnTxt{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 12px;
+    margin-left: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+
+.sec_10TxtFld{
+    outline: none;
+}
+
+.sec_10TxtFld:focus{
+    border: 1px solid #0096c7; !important;
+}
+
+#sec_10NameTxt:focus{
+    border: 1px solid #0096c7; !important;
+}
+
+#sec_10EmailTxt:focus{
+    border: 1px solid #0096c7; !important;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+input{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+textarea{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.sec_10Column2{
+    flex: 1;
+    padding-left: 20px;
+}
+
+.sec_10Grid-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec_10Grid-item{
+    display: flex;
+    padding: 15px;
+
+    height: 75px;
+    width: 259px;
+    margin-bottom: 10px;
+    margin-right: 7px;
+    box-sizing: border-box;
+}
+
+#sec_10Info{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec_10Detail{
+    margin: 0;
+    padding-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#sec_10ContactDetailsTopic{
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    color: black;
+}
+
+#sec_10ContactDetailsPara{
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #6B6E74;
+}
+
+
+
