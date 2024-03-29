@@ -3,8 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     <title> Easy Cook | Simple Recipe Cooking Site </title>
 
+    <!--Poppins Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--CSS & JS links-->
     <link rel="stylesheet" href="/assets/styleSheet/index.css">
     <link rel="stylesheet" href="/assets/styleSheet/section1.css">
     <link rel="stylesheet" href="/assets/styleSheet/section_5.css">
@@ -15,14 +23,13 @@
     <header id="main-header">
 
         <h1 id="headerLogo">Easy-Cook</h1>
-
         <nav>
             <ul>
                 <li><a href="#section_1">Home</a></li>
                 <li><a href="#section_2">Recipes</a></li>
                 <li><a href="#section_3">Blog</a></li>
-                <li><a href="#section_4">Contact</a></li>
-                <li><a href="#section_5">About Us</a></li>
+                <li><a href="#section_4">About Us</a></li>
+                <li><a href="#section_5">Contact</a></li>
             </ul>
         </nav>
 <!--      -----------------------------------------------------------------------------------------------------                         -->
@@ -44,33 +51,104 @@
     </header>
     
     <main>
-    <section id="section_1">
-        <video class="movie" src="/assets/videos/video.mp4" autoplay loop muted type ="mp4"></video>
+    <section id="section_1" class="main">
+       <!-- <video class="movie" src="/assets/videos/video.mp4" autoplay loop muted type ="mp4"></video> -->
+        <video src="/assets/videos/video.mp4"  autoplay loop muted type ="mp4"></video>
+        <div class="content">
+            <h2> Easy Cook </h2>
+            <br>
+            <p>Welcome to our recipe paradise! Explore a world of <br> culinary delights with our diverse collection of recipes. <br> From classics to exotic creations, there's something for everyone. Let the cooking adventure begin!</p>
+            <br>
+
+        </div>
+    </section>
+
+    <section id="section_2" class="main2">
+        <br>
+        <br>
+        <h2> Our Recipes </h2>
+        <p> Absolutely! Here's a paragraph for your recipe page
+            "Dive into a culinary adventure with our array of mouthwatering
+             recipes that promise to tantalize your taste buds and ignite your passion for cooking.
+              From savory mains to delectable desserts, each recipe is meticulously crafted to bring joy to your kitchen and delight to your table.
+               Whether you're a seasoned chef or a cooking novice, our collection offers something for every palate and skill level.
+                Get ready to embark on a flavorful journey where every dish tells a story and every bite is a moment to savor."
+        </p>
 
         
-    </section>
+        <div class="sec_4Grid-container">
 
-    <section id="section_2">
+            <div class="sec_4Grid-item">
+                <img src="assest/image/section_4/Enterprise.png" width="40px" height="40px">
+                <h1 class="sec_4GridTopic">Fride Rice</h1>
+                <p class="sec_4GridDes">Fried rice is a classic Asian dish made by stir-frying cooked rice with a variety of ingredients such as
+                     vegetables, eggs, meat, and/or seafood, along with seasonings and sauces. It's a versatile dish that can be customized to suit
+                      individual tastes and preferences.</p>
+                <a><h6 class="sec_4GridReadMore">Read More</h6></a>
+            </div>
+
+            <div class="sec_4Grid-item">
+                <img src="assest/image/section_4/Web.png" width="40px" height="40px">
+                <h1 class="sec_4GridTopic">Kotthu Rotti</h1>
+                <p class="sec_4GridDes">Sri Lankan Koththu Roti, also known as Kottu Roti, is a popular street food dish in Sri Lanka. It's made by
+                     chopping up roti (a type of flatbread) into small pieces and stir-frying it with a mix of vegetables, eggs, and/or meat,
+                     along with a variety of spices and sauces. Here's a simple recipe to make Sri Lankan Koththu Roti at home</p>
+                <a><h6 class="sec_4GridReadMore">Read More</h6></a>
+            </div>
+
+            <div class="sec_4Grid-item">
+                <img src="assest/image/section_4/UIUX.png" width="40px" height="40px">
+                <h1 class="sec_4GridTopic">BBQ Chicken</h1>
+                <p class="sec_4GridDes">BBQ Chicken is a classic dish enjoyed worldwide, known for its smoky, savory flavor and tender texture. It's a popular choice for outdoor grilling, picnics, and backyard barbecues. While BBQ Chicken can vary in preparation and seasoning depending on regional preferences, the basic concept involves marinating chicken pieces in a flavorful BBQ sauce and grilling them until they're cooked to perfection.</p>
+                <a><h6 class="sec_4GridReadMore">Read More</h6></a>
+            </div>
 
 
+            <div class="sec_4Grid-item">
+                <img src="assest/image/section_4/Graphic.png" width="40px" height="40px">
+                <h1 class="sec_4GridTopic">Srilankan Style Nooldes</h1>
+                <p class="sec_4GridDes">Sri Lankan-style noodles are a unique fusion of Sri Lankan spices and flavors combined with the culinary influences of neighboring Asian countries such as India, China, and Malaysia. This dish typically features egg noodles stir-fried with a colorful array of vegetables, protein, and aromatic spices, resulting in a mouthwatering and satisfying meal.</p>
+                <a><h6 class="sec_4GridReadMore">Read More</h6></a>
+            </div>
+
+            <div class="sec_4Grid-item">
+                <img src="assest/image/section_4/Freelance.png" width="30px" height="30px">
+                <h1 class="sec_4GridTopic" style="padding-top: 37px">Pizza</h1>
+                <p class="sec_4GridDes">Pizza is a popular Italian dish consisting of a round, flat crust typically topped with tomato sauce, cheese, and various toppings, which may include meats, vegetables, and herbs. It is baked in an oven, resulting in a crispy crust and melted, gooey cheese. Pizza can be enjoyed in various forms, from traditional Neapolitan-style pizzas to modern variations with creative toppings.</p>
+                <a><h6 class="sec_4GridReadMore">Read More</i></h6></a>
+            </div>
+
+            <div class="sec_4Grid-item">
+                <img src="assest/image/section_4/Iot.png" width="40px" height="40px">
+                <h1 class="sec_4GridTopic">Burger</h1>
+                <p class="sec_4GridDes">A burger, short for hamburger, is a popular sandwich consisting of a cooked patty of ground meat, typically beef, placed inside a sliced bun or roll. It is often served with various toppings and condiments, such as lettuce, tomato, onion, pickles, cheese, ketchup, mustard, and mayonnaise. Burgers are a staple of fast food restaurants but are also commonly made at home or served in more upscale dining establishments.</p>
+                <a><h6 class="sec_4GridReadMore">Read More</h6></a>
+            </div>
+
+
+        </div>
+
+    </div>
 
     </section>
     
-    <section id="section_3">
-
-        <p></p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia odio pariatur maiores ipsa deserunt facere voluptatem! Dolor provident aut rerum aspernatur distinctio quod, rem cumque maiores, asperiores labore amet praesentium voluptate odit. Fugiat laborum praesentium animi quis ipsum explicabo sint cumque soluta repellendus nemo eaque, fuga sed asperiores neque dolores excepturi et, sapiente optio minus nulla qui, labore totam corporis aliquid? Debitis numquam mollitia est accusamus, alias ad aspernatur vitae delectus veritatis blanditiis, neque voluptates minima deleniti ducimus aut quas atque culpa labore dolorem tempora veniam magnam? Quos est quibusdam esse quae. Commodi cumque ipsa, minus quod reprehenderit architecto accusantium, ad aperiam veritatis consectetur aliquid quia doloremque, voluptatibus soluta. Autem minus aperiam obcaecati dolorum rem possimus fuga architecto dolores laborum ut, quos iure vel delectus, veniam laudantium! Provident ad rem vero officia dolor nihil soluta voluptatum impedit aut suscipit quia cum quae aliquam neque aspernatur sequi explicabo eos eaque cupiditate, sit rerum, porro quibusdam? Veritatis molestiae quae perspiciatis obcaecati saepe dolorum, ex est vero consequuntur? Est voluptatum ab deserunt voluptas dolore nesciunt accusamus perspiciatis dignissimos aspernatur? Adipisci ducimus vero maiores enim, pariatur quis, nihil ut voluptatem cum laudantium autem! Voluptatibus, voluptates. Exercitationem ullam deserunt, minus quae officiis dicta inventore facilis recusandae quasi sequi eum iure eius quaerat eligendi ex non dolorum ea. Iusto, cumque magnam dignissimos a ut adipisci? Quam ea quo esse amet molestiae fugiat voluptatibus eaque odit? Iste, perspiciatis! Ratione mollitia quibusdam odit quis quod, dolores repellendus nostrum quidem obcaecati hic quo saepe optio, nobis ex eos nemo id aliquid, quaerat corrupti qui! Est magnam officiis eligendi asperiores numquam quos amet quidem libero, mollitia facilis sapiente, aliquid earum, veritatis placeat officia minima dolores? Dolorem, rerum delectus. Eum corporis in a quis natus recusandae praesentium inventore eaque? Ex ab ipsam maxime reprehenderit molestiae eaque explicabo cumque dicta autem veniam cupiditate expedita qui voluptatibus pariatur animi quas minima, iste assumenda excepturi magnam impedit facilis, corrupti molestias. Dolorum, aspernatur voluptatem, fugiat illum nesciunt ut doloribus repellat quo beatae illo accusantium at earum expedita, ad eius. Recusandae quas aliquid magnam. Possimus similique accusamus fugiat aliquid enim? Eos pariatur veritatis ut provident quisquam voluptate nisi, perspiciatis quo qui, sunt sapiente non. Nemo soluta dolorem nesciunt, eos odit quasi quibusdam nihil distinctio, expedita eius doloremque in aliquam! Esse dolorum, odio consectetur voluptate deserunt voluptatibus quae quibusdam! Et quia voluptas eaque aliquid eos fuga laudantium culpa debitis quibusdam recusandae distinctio, animi inventore labore exercitationem eveniet sapiente nulla omnis vitae aut minus sed provident quos aliquam ut? Perferendis vel porro quaerat dicta dolorem alias nisi debitis minus voluptate quae! Rerum magnam provident ut est corrupti voluptatem voluptas repellat delectus quibusdam possimus. Nemo nisi harum reprehenderit, iusto repellendus velit beatae nam blanditiis, quibusdam accusantium voluptatum recusandae quod delectus voluptatibus veritatis aliquid! Deserunt minus dolorem nam ullam pariatur iste dignissimos fuga enim officia at atque provident ad eos necessitatibus ipsa culpa, numquam sint aspernatur voluptatem. Laboriosam a quam, nobis autem unde corporis exercitationem saepe fugiat, doloribus dolores tempore ducimus! Quam recusandae fugit nihil delectus? Nesciunt blanditiis consequuntur vel!</p>
-        <p></p>
+    <section id="section_3" class="main3">
+        <br>
+        <br>
+        <h2> Blog </h2>
+        <br>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, accusantium minus! Quidem, porro alias sequi quia laudantium qui, dolorum itaque veritatis veniam eos quod! Vitae corporis vel commodi magni beatae.
     </section>
     
-    <section id="section_4">
-
-        <p></p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia odio pariatur maiores ipsa deserunt facere voluptatem! Dolor provident aut rerum aspernatur distinctio quod, rem cumque maiores, asperiores labore amet praesentium voluptate odit. Fugiat laborum praesentium animi quis ipsum explicabo sint cumque soluta repellendus nemo eaque, fuga sed asperiores neque dolores excepturi et, sapiente optio minus nulla qui, labore totam corporis aliquid? Debitis numquam mollitia est accusamus, alias ad aspernatur vitae delectus veritatis blanditiis, neque voluptates minima deleniti ducimus aut quas atque culpa labore dolorem tempora veniam magnam? Quos est quibusdam esse quae. Commodi cumque ipsa, minus quod reprehenderit architecto accusantium, ad aperiam veritatis consectetur aliquid quia doloremque, voluptatibus soluta. Autem minus aperiam obcaecati dolorum rem possimus fuga architecto dolores laborum ut, quos iure vel delectus, veniam laudantium! Provident ad rem vero officia dolor nihil soluta voluptatum impedit aut suscipit quia cum quae aliquam neque aspernatur sequi explicabo eos eaque cupiditate, sit rerum, porro quibusdam? Veritatis molestiae quae perspiciatis obcaecati saepe dolorum, ex est vero consequuntur? Est voluptatum ab deserunt voluptas dolore nesciunt accusamus perspiciatis dignissimos aspernatur? Adipisci ducimus vero maiores enim, pariatur quis, nihil ut voluptatem cum laudantium autem! Voluptatibus, voluptates. Exercitationem ullam deserunt, minus quae officiis dicta inventore facilis recusandae quasi sequi eum iure eius quaerat eligendi ex non dolorum ea. Iusto, cumque magnam dignissimos a ut adipisci? Quam ea quo esse amet molestiae fugiat voluptatibus eaque odit? Iste, perspiciatis! Ratione mollitia quibusdam odit quis quod, dolores repellendus nostrum quidem obcaecati hic quo saepe optio, nobis ex eos nemo id aliquid, quaerat corrupti qui! Est magnam officiis eligendi asperiores numquam quos amet quidem libero, mollitia facilis sapiente, aliquid earum, veritatis placeat officia minima dolores? Dolorem, rerum delectus. Eum corporis in a quis natus recusandae praesentium inventore eaque? Ex ab ipsam maxime reprehenderit molestiae eaque explicabo cumque dicta autem veniam cupiditate expedita qui voluptatibus pariatur animi quas minima, iste assumenda excepturi magnam impedit facilis, corrupti molestias. Dolorum, aspernatur voluptatem, fugiat illum nesciunt ut doloribus repellat quo beatae illo accusantium at earum expedita, ad eius. Recusandae quas aliquid magnam. Possimus similique accusamus fugiat aliquid enim? Eos pariatur veritatis ut provident quisquam voluptate nisi, perspiciatis quo qui, sunt sapiente non. Nemo soluta dolorem nesciunt, eos odit quasi quibusdam nihil distinctio, expedita eius doloremque in aliquam! Esse dolorum, odio consectetur voluptate deserunt voluptatibus quae quibusdam! Et quia voluptas eaque aliquid eos fuga laudantium culpa debitis quibusdam recusandae distinctio, animi inventore labore exercitationem eveniet sapiente nulla omnis vitae aut minus sed provident quos aliquam ut? Perferendis vel porro quaerat dicta dolorem alias nisi debitis minus voluptate quae! Rerum magnam provident ut est corrupti voluptatem voluptas repellat delectus quibusdam possimus. Nemo nisi harum reprehenderit, iusto repellendus velit beatae nam blanditiis, quibusdam accusantium voluptatum recusandae quod delectus voluptatibus veritatis aliquid! Deserunt minus dolorem nam ullam pariatur iste dignissimos fuga enim officia at atque provident ad eos necessitatibus ipsa culpa, numquam sint aspernatur voluptatem. Laboriosam a quam, nobis autem unde corporis exercitationem saepe fugiat, doloribus dolores tempore ducimus! Quam recusandae fugit nihil delectus? Nesciunt blanditiis consequuntur vel!</p>
-        <p></p>
+    <section id="section_4" class="main4">
+        <br>
+        <br>
+        <h2>About Us</h2>
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente illo ex accusamus iusto blanditiis porro molestiae maxime, dicta obcaecati, iure et culpa nesciunt corrupti quia esse consequuntur sequi aspernatur beatae?
     </section>
 
-    <section id="section_5">
+    <section id="section_5" class="main5">
 
             <div id="sec_10Topics">
                 <h1 id="sec10_HeadText">Get In Touch</h1>
@@ -168,9 +246,38 @@
             </div>
 
     </section>
-
-
     </main>
+
+    <footer>
+
+        <div class="footerMain">
+
+            <div class="footerGrid-container">
+
+                <div class="footerGrid-item">
+
+                    <h1 id="footerLogo">PESALA.</h1>
+
+                </div>
+
+                <div id="footerMiddle" class="footerGrid-item">
+
+                    <h1 id="footerMiddleTxt"> © 2024 Design & Developed by Pesala Winodith .</h1>
+
+                </div>
+
+                <div class="footerGrid-item">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script>

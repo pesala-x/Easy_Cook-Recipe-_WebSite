@@ -9,7 +9,7 @@
 :root
 {
     --black: #333;
-    --baby_black:#333;
+    --baby_black:#000000;
     --heavy_Black:#00fff7;
     --white: #fff;
     --white2: #fff;
@@ -18,7 +18,7 @@
 .dark
 {
     --black: #fff;
-    --baby_black:rgba(255, 255, 255, 0.201);
+    --baby_black:rgb(255, 255, 255);
     --heavy_Black:#000;
     --white: #333;
     --white2: #000;
@@ -27,9 +27,10 @@
 body
 {
     background-color: var(--white);
+    
 }
 #main-header{
-    width: 100vw;
+    width: 100%;
     height: 50px;
     /*background-color:var(--black);*/
     background-color:transparent;
@@ -139,3 +140,251 @@ header>nav>ul>li>a:hover
     color: var(--white);
     font-size: 1.78em;
 }
+/**/
+.main
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 20px 30px rgb(0, 0, 0,0.5) ; 
+    object-fit: cover;
+}
+.main h2
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    z-index: 3;
+    font-size: 10vw;
+    color: #fff;
+    text-shadow: 0 20px 30px rgb(0, 0, 0,0.2) ; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.content p
+{
+    
+    font-family: 'Poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    font-size: 13pt;
+    color: #ffffff;
+    text-shadow: 0 20px 30px rgb(0, 0, 0,0.2) ; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+/*---------------------------------------- Section2 --------------------------------------------*/
+.main2>h2
+{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--baby_black);
+    align-items: center;
+    justify-content: center;
+} 
+.main2>p
+{
+    text-align: center;
+    color: var(--baby_black);
+    align-items: center;
+    justify-content: center;
+}
+
+#section_4{
+    background-color: #F9FAFB;
+}
+
+#section_4Main{
+    padding-left: 14vw;
+    padding-right: 14vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#sec_4Topics{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#sec4_HeadText{
+    color: #0096c7;
+    margin: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#sec4_SubText{
+    margin: 5px;
+    text-align: center;
+    width: 300px;
+    color: #6B6E74;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.sec_4Grid-container {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.sec_4Grid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 30px;
+    padding-top: 40px;
+
+    background-color: white;
+    height: 480px;
+    width: 336px;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+
+    transition: box-shadow 1s ease;
+}
+
+.sec_4Grid-item:hover{
+    box-shadow: 0 0 15px #CAD3D5;
+}
+
+.sec_4GridTopic{
+    padding-top: 30px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sec_4GridDes{
+    padding-top: 20px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #808080;
+}
+
+.sec_4GridReadMore{
+    width: 70px;
+    margin-top: 25px;
+    padding-top: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.sec_4GridReadMore:hover{
+    color: #0096c7;
+    cursor: pointer;
+}
+
+
+
+
+/*---------------------------------------- Section3 --------------------------------------------*/
+.main3>h2
+{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--baby_black);
+
+} 
+
+/*---------------------------------------- Section4 --------------------------------------------*/
+.main4>h2
+{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--baby_black);
+
+} 
+/*---------------------------------------- Section4 --------------------------------------------*/
+#sec10_HeadText
+{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--baby_black);
+
+} 
+
+
+/*---------------------------------------- Footer --------------------------------------------*/
+footer{
+    width: 100vw;
+    height: 60px;
+    background-color: var(--baby_black);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footerMain{
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+
+.footerGrid-container{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footerGrid-item{
+    flex: 1;
+    height: 30px;
+}
+
+#footerMiddle{
+    display: flex;
+    justify-content: center;
+}
+
+#footerLogo{
+    margin: 0;
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    display: inline-block;
+    color: var(--white);
+}
+
+#footerMiddleTxt{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    display: inline-block;
+    color: var(--white);
+}
+
+
